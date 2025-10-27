@@ -407,7 +407,7 @@ hari = datetime.now().strftime("%A")
 def lo(word):
     Bryx = ["[\033[38;5;40m■\x1b[0m□□□□□□□□□]","[\033[38;5;42m■■\x1b[0m□□□□□□□□]", "[\033[38;5;42m■■■\x1b[0m□□□□□□□]", "[\033[38;5;43m■■■■\x1b[0m□□□□□□]", "[\033[38;5;44m■■■■■\x1b[0m□□□□□]", "[\033[38;5;45m■■■■■■\x1b[0m□□□□]", "[\x1b[1;97m■■■■■■■\x1b[0m□□□]", "[\x1b[1;98m■■■■■■■■\x1b[0m□□]", "[\x1b[1;99m■■■■■■■■■\x1b[0m□]", "[\x1b[1;910m■■■■■■■■■■\x1b[0m]"]
     for i in range(5):
-        for x in range(len(Bryx))
+        for x in range(len(Bryx)):
             sys.stdout.write(('\r{}{}').format(str(word), Bryx[x]))
             time.sleep(0.1)
             sys.stdout.flush()
