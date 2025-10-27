@@ -390,7 +390,7 @@ try:
 except Exception as e:
     pass
 #──────────────{ FILE FOLDER }──────────────#
-folder_path = '/sdcard/AUTO-CREATE-BRYX/create/'
+folder_path = '/sdcard/AUTO-CREATE-ZK/create/'
 try:
     os.makedirs(folder_path, exist_ok=True)
 except:
@@ -407,7 +407,7 @@ hari = datetime.now().strftime("%A")
 def lo(word):
     Bryx = ["[\033[38;5;40m■\x1b[0m□□□□□□□□□]","[\033[38;5;42m■■\x1b[0m□□□□□□□□]", "[\033[38;5;42m■■■\x1b[0m□□□□□□□]", "[\033[38;5;43m■■■■\x1b[0m□□□□□□]", "[\033[38;5;44m■■■■■\x1b[0m□□□□□]", "[\033[38;5;45m■■■■■■\x1b[0m□□□□]", "[\x1b[1;97m■■■■■■■\x1b[0m□□□]", "[\x1b[1;98m■■■■■■■■\x1b[0m□□]", "[\x1b[1;99m■■■■■■■■■\x1b[0m□]", "[\x1b[1;910m■■■■■■■■■■\x1b[0m]"]
     for i in range(5):
-        for x in range(len(Bryx)):
+        for x in range(len(Bryx:
             sys.stdout.write(('\r{}{}').format(str(word), Bryx[x]))
             time.sleep(0.1)
             sys.stdout.flush()
@@ -556,9 +556,9 @@ logo=("""
           [green_yellow]THIS [dark_olive_gre]TOOLS [pale_green1] IS[dark_sea_green…] NOT FOR FREE
 """)
 ll=str([hari,tanggal])
-hx=("""  [bold green1]DEVELOPER[medium_purple1]   ⟩[cyan][bold] Deen
-  [bold green1]FACEBOOK[medium_purple1]    ⟩[cyan][bold] DEEN ABUEVA
-  [bold green1]GITHUB[medium_purple1]      ⟩[bright_yellow] Dian2025.git
+hx=("""  [bold green1]DEVELOPER[medium_purple1]   ⟩[cyan][bold]DK
+  [bold green1]FACEBOOK[medium_purple1]    ⟩[cyan][bold] ZK VOLKSCHEV
+  [bold green1]GITHUB[medium_purple1]      ⟩[bright_yellow] ZK-V6.git
   [bold green1]STATUS[medium_purple1]      ⟩[bright_yellow] ALL NETWORK 
   [bold green1]TOOLS[medium_purple1]       ⟩[bright_yellow] PREMIUM 
   [bold green1]UPDATES[medium_purple1]     ⟩[bright_yellow] MARCH 22
@@ -744,7 +744,7 @@ def main() -> None:
                 print(a)
                 confirm_id(email2,uid,valid,con_sub,ses)
             else:
-                open("/sdcard/AUTO-CREATE-BRYX/create/auto-create-disabled-cp.txt", "a").write(f"{email2}|{uid}|{password}\n")
+                open("/sdcard/AUTO-CREATE-ZK/create/auto-create-disabled-cp.txt", "a").write(f"{email2}|{uid}|{password}\n")
                 cps.append(uid)
         else:
         	cps.append(uid)
@@ -804,7 +804,7 @@ def confirm_id(mail,uid,otp,data,ses):
             c.add(Bryxf)
             c.add(Panel(hx,style="bold violet"))
             print(c)
-            open("/sdcard/AUTO-CREATE-YUSH/create/auto-create-ok.txt", "a").write(uid+"|"+otp+f"|{password}|"+mail+"|"+cookie+"\n")
+            open("/sdcard/AUTO-CREATE-ZK/create/auto-create-ok.txt", "a").write(uid+"|"+otp+f"|{password}|"+mail+"|"+cookie+"\n")
             oks.append(uid)
     except Exception as e:    
         pass
@@ -917,11 +917,11 @@ def register_facebook_account(password, first_name, last_name, birthday):
                 c.add(Panel(hx,style="bold violet"))
                 print(c)
                 oks.append(id)
-                open("/sdcard/AUTO-CREATE-BRYX/create/auto-create-alive.txt", "a").write(id+"|"+code+f"|{password}|"+email+"|"+token+"\n")
+                open("/sdcard/AUTO-CREATE-ZK/create/auto-create-alive.txt", "a").write(id+"|"+code+f"|{password}|"+email+"|"+token+"\n")
             else:
                 print()
     else:
-        open("/sdcard/AUTO-CREATE-BRYX/create/auto-create-disabled-cp.txt", "a").write(f"{email}|{id}|BRYXPOGIJOKER123\n")
+        open("/sdcard/AUTO-CREATE-ZK/create/auto-create-disabled-cp.txt", "a").write(f"{email}|{id}|BRYXPOGIJOKER123\n")
         cps.append(id)
 #──────────────{ AUTO PHOTO }──────────────#
 r = requests.Session()
